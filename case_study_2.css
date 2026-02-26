@@ -166,14 +166,21 @@ ul li a.active {
 	display:flex;
 	flex-direction:column;	
 }
-.display-video-section>h1{
-	/*text-align: left;*/
+
+.display-video-section > h1{
 	font-size:3rem;
 }
 
-.display-video{
+.video-wrapper{
 	width:95%;
-	max-height:1080px;
-	align-self: center;
+	align-self:center;
+	aspect-ratio:16 / 9;
+}
+
+.display-video{
+	width:100%;
+	height:100%;
+	border:0;
 }
 /*---------------------------END DISPLAY VIDEO SECTION---------------------------*/
+
