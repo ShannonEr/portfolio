@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Bagel+Fat+One&family=Bakbak+One&display=swap');
+
+body{
+	background-image: linear-gradient(to bottom, #024050,#041820);
+	background-repeat: no-repeat;
+	color: #C5CDB5;
+}
+
+h1{
+	text-align:center;
+	weight:400;
+	font-size:6rem;
+	line-height:100%;
+	font-family: "Bagel Fat One", system-ui;
+	font-weight: 400;
+	font-style: normal;
+}
+h2, p {
+	font-family: "Bakbak One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+}
+
+section{
+	width: 100%;
+	max-width: 1920px;
+	margin: 4rem auto;
+	padding: 2rem 0;
+}
+/*---------------------------NAV---------------------------*/
+#navbar{
+	position: sticky;
+	top: 0;
+	overflow: hidden;
+  	background-color: #024050;
+	opacity:0.3;
+	transition: opacity 0.3s;
+}
+#navbar:hover{
+	opacity: 1;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+
+	font-family: "Bagel Fat One", system-ui;
+	font-weight: 400;
+	font-style: normal;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+	display: block;
+	text-align: center;
+	padding:14px 16px ;
+	text-decoration: none;
+	font-size: 2.5rem;
+}
+ul li a>img{
+	display: block;
+	height:3.5rem;
+	margin-top:10%;
+}
+
+ul li a:hover:not(.active) {
+  color:#9DAB82;
+  background-color: transparent;
+}
+ul li a>img:hover:not(.active) {
+  filter: grayscale(100%);
+}
+ul li a:not(.active) {
+  color: #C5CDB5;
+}
+ul li a.active {
+  color: #C5CDB5;
+}
+
+/*---------------------------END NAV---------------------------*/
+
+/*---------------------------DISPLAY LOGO SECTION---------------------------*/
+.logo-image{
+	max-width:1920px;
+}
+.logo-image img{
+	width:100%;
+	object-fit: contain;
+}
+
+.display-section{
+	max-height: 1080px;
+	display:flex;
+	flex-direction:row;	
+}
+
+/*---------------------------END DISPLAY LOGO SECTION---------------------------*/
+/*---------------------------DISPLAY INFO SECTION---------------------------*/
+.display-information{
+	max-height: 1080px;
+	display:flex;
+	flex-direction:column;	
+}
+.display-container{
+	width:95%;
+	display:flex;
+	flex-direction:row;
+	margin: 0 auto 2% auto;
+	flex-wrap: wrap;
+}
+.display-title-container{
+	display:flex;
+	flex: 0 0 35%;
+	font-size: clamp(0.8rem, 2vw, 2rem);
+	min-width: 0;
+}
+.display-title-container h1{
+	text-align: left;
+	margin:0;
+	overflow-wrap: break-word;
+	word-break: break-word;
+}
+.display-desc-container{
+	display:flex;
+	flex: 1;
+	min-width: 300px;
+}
+.display-desc-list{
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	width:100%;
+} 
+
+.display-desc-list li p{
+	text-align: left;
+  	font-family: "Assistant", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.25rem;
+	padding-left:1%;
+	padding-right: 5%;
+	color:#C5CDB5;
+}
+@media (max-width: 768px){
+	.display-container{
+		flex-direction: column;
+		font-size: 1.3rem;
+	}
+
+	.display-title-container,
+	.display-desc-container{
+		flex: 100%;
+		width: 100%;
+	}
+}
+/*---------------------------END DISPLAY INFO SECTION---------------------------*/
+/*---------------------------DISPLAY VIDEO SECTION---------------------------*/
+.display-video-section{
+	display:flex;
+	flex-direction:column;	
+}
+
+.display-video-section > h1{
+	font-size:3rem;
+}
+
+.video-wrapper{
+	width:95%;
+	align-self:center;
+	aspect-ratio:16 / 9;
+}
+
+.display-video{
+	width:100%;
+	height:100%;
+	border:0;
+}
+/*---------------------------END DISPLAY VIDEO SECTION---------------------------*/

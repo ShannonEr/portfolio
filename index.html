@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="images/profile.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio</title>
+</head>
+<body>
+<div id="navbar">
+	<nav><ul>
+		<li style="float:right"><a href="downloads/resume.pdf" download target="_blank">Resume</a></li>
+		<li style="float:right"><a href="https://www.linkedin.com/in/shannon-er" target="_blank"><img src = "images/linkedin.png" alt="linkedin"></a></li>
+		<!--<li style="float:right"><a href="#contact">
+		<img src = "images/email.png" alt="email"></a></li>-->
+		<li><a href="index.html" class="active">Shannon</a></li>
+	</ul></nav>
+</div>
+
+<section class="home">
+	<h1>GAME DESIGNER & PROGRAMMER</h1>
+	<div class = "profile-container">
+	<img src="images/profile_half.png" alt="profile">
+	<img src="images/profile.png" alt="profile">
+	</div>
+	<div class = "home-decription">
+		<p>Game designer with strong skills in gameplay systems, mechanics, and player experiences.</p></div>
+</section>
+
+<section class="projects" id="projects">
+	<div class="project-container">
+		<div class="project-navigation-container">
+			<button class="arrow-container-up" onclick="scrollButtons(-1)">
+			<img src="images/arrow.png" alt = "arrow">
+			</button>
+
+			<button class="project-button nav-btn" onclick="navClick(0)"></button>
+			<button class="project-button nav-btn" onclick="navClick(1)"></button>
+			<button class="project-button nav-btn" onclick="navClick(2)"></button>
+
+			<button class="arrow-container-down" onclick="scrollButtons(1)">
+			<img src="images/arrow.png" alt = "arrow">
+			</button>
+		</div>
+		<div class= "project-display-container">
+			<div class = "project-vid">
+			<img class= "project-slider" src="images/projects/project_1.png" alt="1">
+			<img class= "project-slider" src="images/projects/project_2.png"  alt="2">
+			<img class= "project-slider" src="images/projects/project_3.png"  alt="3">
+			</div>
+			<div class = "projects-description-container">
+				<h2 id = "project-title">Your Project Name:</h2>
+				<p id ="project-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+			</div>
+			<a id ="page-btn" href=""><p>Read More</p></a>
+		</div>
+	</div>
+</section>
+
+<section class="about">
+	<div class = "profile-container">
+		<img src="images/profile_half.png" alt="profile">
+		<img src="images/profile.png" alt="profile">
+	</div>
+	<div><h1>ABOUT</h1></div>
+	<div class = "about-desc-container"><p>
+		Throughout my academic journey, I explored multiple areas of game development both independently and through team projects. I’ve designed gameplay mechanics and level progression across various genres such as platformers and visual novels, iterating and polishing ideas while collaborating with artists and fellow programmers to ensure each project aligns with shared goals.
+ 
+		Professionally, I’ve interned at FallenCranberry Studios and at Nanyang Technological University’s Wee Kim Wee School of Communication and Information (WKWSCI). I’ve also contributed to the modding community, creating quality‑of‑life mods such as a customizable starting‑currency mod for Lethal Company and an item expansion of special tools for Minecraft. These experiences deepened my understanding of player interaction in both game and research contexts and broadened my perspective on interactive systems.
+	</p></div>
+</section>	
+
+</body>
+	 <script src="home.js"></script>
+</html>
