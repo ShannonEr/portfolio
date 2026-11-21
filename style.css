@@ -315,7 +315,7 @@ ul li a.active {
     aspect-ratio: 16 / 9;
     height: auto;
 
-    background-color: yellow;
+    /*background-color: yellow; */
     overflow: hidden;
 }
 
