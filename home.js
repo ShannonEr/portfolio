@@ -28,14 +28,14 @@ var projects = [
 		link: "case_study_3.html"
 	},
 	{
-	title: "Project FER4L",
-	description: "The player is the 4th test subject on a study on how mutations will affect survival. Scientists have dropped the player into a controlled environment where the goal is to survive. The player will traverse multiple areas in the environment, mutate to grow stronger to guarantee their survival. With branching mutations of endless possibilities, the player can create their own survival playstyle and be the last to survive. ",
-	link: "case_study_4.html"
+		title: "Project FER4L",
+		description: "The player is the 4th test subject on a study on how mutations will affect survival. Scientists have dropped the player into a controlled environment where the goal is to survive. The player will traverse multiple areas in the environment, mutate to grow stronger to guarantee their survival. With branching mutations of endless possibilities, the player can create their own survival playstyle and be the last to survive. ",
+		link: "case_study_4.html"
 	},
 	{
-	title: "Lover's Enigma",
-	description: "An otome game where we explore a story in which the protagonist has their own thoughts.",
-	link: "case_study_5.html"
+		title: "Lover's Enigma",
+		description: "An otome game where we explore a story in which the protagonist has their own thoughts.",
+		link: "case_study_5.html"
 	}
 ];
 
